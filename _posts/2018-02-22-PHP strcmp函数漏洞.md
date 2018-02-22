@@ -7,8 +7,7 @@ author:     Waldo
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - iOS
-    - iOS开发基础
+    - PHP
 ---
 
 # strcmp函数的返回值
