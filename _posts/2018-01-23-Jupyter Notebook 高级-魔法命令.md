@@ -4,7 +4,7 @@ title:      Jupyter Notebook 高级-魔法命令
 subtitle:   run、time、timeit
 date:       2018-01-23
 author:     Waldo
-header-img: img/post-bg-coffee.jpg
+header-img: img/post-bg-coffee.jpeg
 catalog: true
 tags:
     - 机器学习
@@ -30,6 +30,7 @@ tags:
 循环多少次是由Jupter Notebook决定的。这里只运行了一次。
 ![image.png](http://upload-images.jianshu.io/upload_images/7216746-5f1c98d247022b2f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 这里运行了10000次。
+
 
 # %%timeit
 > 度量这个单元格内整理所消耗的时间
