@@ -1,0 +1,48 @@
+---
+layout:     post
+title:      C++使用按位左移_右移运算符
+subtitle:   
+date:       2018-03-03
+author:     Waldo
+header-img: img/post-bg-digital_native.jpg
+catalog: true
+tags:
+    - 编程语言
+---
+
+1.按位右移运算符(>>)
+将数据除以2^n(2的n次方)
+
+2.按位左移运算符(<<)
+将数据乘以2^n(2的n次方)
+
+使用按位运算符计算数据
+```
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main()
+{
+    cout << "Enter a number:";
+    int Input = 0;
+    cin >> Input;
+
+    int Half = Input >> 1;
+    int Quarter = Input >> 2;
+    int Double = Input << 1;
+    int Quadruple = Input << 2;
+
+    cout << "Half:" << Half << endl;
+    cout << "Quarter:" << Quarter << endl;
+    cout << "Double:" << Double << endl;
+    cout << "Quadruple:" << Quadruple << endl;
+
+    system("pause");
+    return 0;
+
+}
+```
+
+效果图
+![image](http://upload-images.jianshu.io/upload_images/7216746-a48ff08e0784d8ce..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
