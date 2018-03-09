@@ -9,7 +9,6 @@ catalog: true
 tags:
     - 机器学习
     - 机器学习算法
-    - kNN
 ---
 
 # 将kNN简便型算法写在kNN.py文件里
