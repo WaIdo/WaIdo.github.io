@@ -4,7 +4,7 @@ title:      scikit-learn中的机器学习算法封装
 subtitle:   
 date:       2018-03-09
 author:     Waldo
-header-img: img/home-bg-o.jpg
+header-img: img/post-bg-林间小路1.jpg
 catalog: true
 tags:
     - 机器学习
