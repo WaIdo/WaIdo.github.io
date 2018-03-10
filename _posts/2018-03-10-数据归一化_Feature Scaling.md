@@ -1,4 +1,3 @@
-
 ---
 layout:     post
 title:      数据归一化  Feature Scaling
