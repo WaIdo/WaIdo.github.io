@@ -8,6 +8,7 @@ header-img: img/post-bg-自然风景7.jpg
 catalog: true
 tags:
     - PHP
+    
 ---
 
 在PHP 5中，foreach循环只能用于数组和对象的循环。
