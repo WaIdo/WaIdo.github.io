@@ -31,12 +31,11 @@ foreach循环语句将遍历数组array_expression。每次循环时，将当前
 	$counts=array("1"=>1,"2"=>1,"3"=>2,"4"=>1);
 	foreach ($name as $key => $value) {
 		# code...
-		echo "$value"." ".$price[$key]." ".$counts[$key]." ".$counts[$key]*$price[$key];
+		echo "商品名称: $value"." 商品单价:".$price[$key]." 购买数量: ".$counts[$key]." 总价格: ".$counts[$key]*$price[$key];
 		echo "<p>";
 	}
 ?>
 ```
 运行结果：
-![image.png](https://upload-images.jianshu.io/upload_images/7216746-24904330bea9eea3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![image.png](https://upload-images.jianshu.io/upload_images/7216746-c6d7378acc7ea032.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
