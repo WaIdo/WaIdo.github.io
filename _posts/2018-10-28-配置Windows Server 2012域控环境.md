@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      配置Windows Server 2012域控环境
-subtitle:   
-date:       2018-10-28
+title:      配置Windows Server 2012域控环境,抓取域控和域用户hash
+subtitle:   使用C语言编写，Linux编译运行
+date:       2018-10-20
 author:     Waldo
 header-img: img/post-bg-自然风景22.jpg
 catalog: true
